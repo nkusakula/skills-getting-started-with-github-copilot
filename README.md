@@ -1,37 +1,89 @@
-<div align="center">
+# Getting Started with GitHub Copilot
 
-# 🎉 Congratulations nkusakula! 🎉
+Welcome to the **Getting Started with GitHub Copilot** skills repository! This repository provides a hands-on learning experience with GitHub Copilot, an AI-powered coding assistant.
 
-<img src="https://octodex.github.com/images/welcometocat.png" height="200px" />
+## About This Repository
 
-### 🌟 You've successfully completed the exercise! 🌟
+This repository contains a sample FastAPI application for **Mergington High School Activities**, which allows students to view and sign up for extracurricular activities. The application serves as a practical project for learning how to use GitHub Copilot features.
 
-## 🚀 Share Your Success!
+## Sample Application
 
-**Show off your new skills and inspire others!**
+The repository includes a simple web application built with FastAPI that provides:
 
-<a href="https://twitter.com/intent/tweet?text=I%20just%20completed%20the%20%22Getting%20Started%20with%20GitHub%20Copilot%22%20GitHub%20Skills%20hands-on%20exercise!%20%F0%9F%8E%89%0A%0Ahttps%3A%2F%2Fgithub.com%2Fnkusakula%2Fskills-getting-started-with-github-copilot%0A%0A%23GitHubSkills%20%23OpenSource%20%23GitHubLearn" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Share%20on%20X-1da1f2?style=for-the-badge&logo=x&logoColor=white" alt="Share on X" />
-</a>
-<a href="https://bsky.app/intent/compose?text=I%20just%20completed%20the%20%22Getting%20Started%20with%20GitHub%20Copilot%22%20GitHub%20Skills%20hands-on%20exercise!%20%F0%9F%8E%89%0A%0Ahttps%3A%2F%2Fgithub.com%2Fnkusakula%2Fskills-getting-started-with-github-copilot%0A%0A%23GitHubSkills%20%23OpenSource%20%23GitHubLearn" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Share%20on%20Bluesky-0085ff?style=for-the-badge&logo=bluesky&logoColor=white" alt="Share on Bluesky" />
-</a>
-<a href="https://www.linkedin.com/feed/?shareActive=true&text=I%20just%20completed%20the%20%22Getting%20Started%20with%20GitHub%20Copilot%22%20GitHub%20Skills%20hands-on%20exercise!%20%F0%9F%8E%89%0A%0Ahttps%3A%2F%2Fgithub.com%2Fnkusakula%2Fskills-getting-started-with-github-copilot%0A%0A%23GitHubSkills%20%23OpenSource%20%23GitHubLearn" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Share%20on%20LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Share on LinkedIn" />
-</a>
+- A RESTful API for viewing extracurricular activities
+- Student signup functionality for activities
+- Static web interface for interacting with the API
 
-### 🎯 What's Next?
+### Technologies Used
 
-**Keep the momentum going!**
+- **FastAPI**: Modern web framework for building APIs with Python
+- **Uvicorn**: ASGI server for running the application
+- **Python**: Programming language
 
-[![](https://img.shields.io/badge/Return%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/nkusakula/skills-getting-started-with-github-copilot/issues/1)
-[![GitHub Skills](https://img.shields.io/badge/Explore%20GitHub%20Skills-000000?style=for-the-badge&logo=github&logoColor=white)](https://learn.github.com/skills))
+## Getting Started
 
-*There's no better way to learn than building things!* 🚀
+### Prerequisites
 
-</div>
+- Python 3.7+
+- pip (Python package installer)
 
----
+### Installation
 
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+1. Install the required dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Navigate to the `src` directory:
+
+   ```bash
+   cd src
+   ```
+
+3. Run the application:
+
+   ```bash
+   python app.py
+   ```
+
+4. Open your browser and navigate to:
+   - Application: http://localhost:8000
+   - API Documentation: http://localhost:8000/docs
+   - Alternative Documentation: http://localhost:8000/redoc
+
+## Learning GitHub Copilot
+
+This repository is part of the GitHub Skills learning path. Through this exercise, you'll learn to:
+
+- Use **Inline Suggestions** for code completion
+- Leverage **Copilot Chat** for asking coding questions
+- Apply **Copilot Edit Mode** for making code changes
+- Utilize **Copilot Agent Mode** for autonomous task completion
+
+### Resources
+
+- [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
+- [GitHub Copilot Features](https://docs.github.com/en/copilot/about-github-copilot/github-copilot-features)
+- [GitHub Skills](https://skills.github.com)
+
+## Project Structure
+
+```
+.
+├── src/
+│   ├── app.py          # Main FastAPI application
+│   ├── static/         # Static web assets
+│   └── README.md       # Application-specific documentation
+├── requirements.txt    # Python dependencies
+└── README.md          # This file
+```
+
+## Contributing
+
+This is a learning repository. Feel free to experiment with the code and practice using GitHub Copilot!
+
+## License
+
+&copy; 2025 GitHub &bull; [MIT License](https://gh.io/mit)
 
